@@ -1,0 +1,231 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    /* background-color: #1e3b09 !important; novo fundo */
+    color: #f0f0f0;           /* nova cor de texto */
+  }
+
+  
+}
+
+.boxErrorAlert{
+  background-color: ; 
+  border: #dc3545; text-red-700 px-4 py-3 relative rounded transition-opacity duration-500 ease-in-out
+}
+
+.logo{
+  max-height: auto !important;
+  max-width: 80% !important;
+}
+
+.box-menus{
+  background-color: #1e3b09 ;
+  color: #fff;
+}
+
+.box-menus a:visited{
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+input{
+  background-color: #fff !important;
+}
+
+.pricing-card {
+  /* background-color: #795548 ; */
+  background-color: #48420a ;
+  /* background-color: #463f00 ; */
+  /* background-color: #3e3900 ; */
+  /* background-color: #3e562c ;  */
+  /* background-color: #627552 ; */
+  /* background-color: #1c330b ; */
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  padding: 10px 20px;
+  transition: transform 0.3s ease;
+  color: #ffffff;
+}
+
+a:visited{
+  color: #000 !important;
+}
+
+.btn-register{
+  background-color: #E5E7EB;
+  color: #000 !important;
+}
+
+.box-menus a.btn-register:visited {
+  color: #000 !important;
+}
+
+.btn-green{
+  background-color: #063a16;
+  color: #fff;
+}
+
+.btn-green:hover{
+  background-color: #31CE36 !important;
+  color: #fff;
+}
+
+.card-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.card-buttons button {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilos individuais com cores */
+.card-buttons .btn-view {
+  background-color: transparent;
+  border: 1px solid #007bff;
+  color: #007bff;
+}
+
+.card-buttons .btn-view:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.card-buttons .btn-edit {
+  background-color: transparent;
+  border: 1px solid #ffc107;
+  color: #ffc107;
+}
+
+.card-buttons .btn-edit:hover {
+  background-color: #ffc107;
+  color: black;
+}
+
+.card-buttons .btn-delete {
+  background-color: transparent;
+  border: 1px solid #dc3545;
+  color: #dc3545;
+}
+
+.card-buttons .btn-delete:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Responsividade */
+@media (min-width: 600px) {
+  .pricing-card {
+    flex: 1 1 calc(50% - 1rem); /* 2 cards por linha */
+  }
+}
+
+@media (min-width: 900px) {
+  .pricing-card {
+    flex: 1 1 calc(25% - 1rem); /* 4 por linha se tiver espaço */
+  }
+}
+
+a:visited {
+  color: #fff;       /* mantém a cor original */
+  text-decoration: none; /* opcional: remove o sublinhado */
+}
+
+.btnCadPlot{
+  background-color: #063A16 !important;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+}
+
+.pricing-card img{
+  width: 64px;
+  height: 64px;
+  margin-bottom: 10%;
+}
+
+.pricing-card i {
+  font-size: 48px;
+  margin-bottom: 15px;
+  color: #ffb84d;
+}
+
+.pricing-card h5 {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.pricing-card ul li {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.btn-custom {
+  background-color: #ffffff;
+  color: #000;
+  border: none;
+  padding: 10px 25px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #e0a835;
+  color: #000;
+}
+
+.sidebar[data-background-color="dark"]{
+  /* background-color: #1e3b09 !important; */
+  /* background-color: #2e7d32 !important; */
+  /* background-color: #1c330b !important; */
+  background-color: #063A16 !important;
+  color: #263238 !important;
+}
+
+.sidebar[data-background-color="dark"] .nav > .nav-item a{
+  
+  /* background-color: #1e3b09 !important; */
+  color: #ffffff !important;
+}
+
+.sidebar .nav > .nav-item a i{
+  color: #ffffff;
+}
+
+.logo-header[data-background-color="dark"]{
+  /* background-color: #1e3b09 !important; */
+  /* background-color: #1c330b !important; */
+  background-color: #063A16 !important;
+  /* background-color: #2e7d32 !important; */
+}
+
+.logo-header img{
+  height: 60%;
+}
+
+.pricing-card .plot-icon{
+  fill: #fff;
+  width: 9em !important;
+  height: 9em !important;
+  margin-bottom: 10%;
+}
+
+.btn-registrar{
+  background-color: #063A16;
+  color: #fff;
+}
